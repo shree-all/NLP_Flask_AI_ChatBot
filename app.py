@@ -9,9 +9,6 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-app.route("/chatbot2")
-def home2():
-    return render_template("index.html")
 
 @app.route("/get")
 def get_bot_response():
